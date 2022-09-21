@@ -1,0 +1,10 @@
+.mail-list{
+    padding:1rem;
+    width: 25%;
+    border-right: 2px solid lightgrey;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,25 @@
+.folder-list{
+    width: 15%;
+    height: 100%;
+    background-color: lightgrey;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    border:none;
+    background-color: transparent;
+    /* width: 100%; */
+    padding:0.5rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li:hover{
+    background-color: #c4e1fc;
+    font-weight: bold;
+}
