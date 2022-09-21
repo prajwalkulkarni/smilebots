@@ -31,15 +31,18 @@ export const SPAM = [
 export const FOLDERS = [
     {
         name: "Inbox",
+		linkedTo: INBOX,
         id: "inbox"
     },
     {
         name: "Spam",
+		linkedTo: SPAM,
         id: "spam"
     },
-    {
-        name:"Custom folder",
-        id: "custom"
-    }
+	{
+		name: "Deleted Items",
+		linkedTo:[],
+		id:"deleted"
+	}
 
 ]
